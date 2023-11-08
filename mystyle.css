@@ -1,0 +1,78 @@
+/* Style the banner */
+.banner {
+  background: #000000;
+}
+
+/* Style the "Sell on Jumia" link */
+.col3 a {
+  color: #fff; /* Text color */
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 10px; /* Add some spacing between links */
+}
+
+/* Style the navigation links */
+.vent-link {
+  color: #000; /* Text color for links in the header */
+  text-decoration: none;
+  margin-right: 10px; /* Add some spacing between links */
+}
+
+/* Style the header background */
+.header {
+  background: #f2f2f2; /* Change this to your desired background color */
+}
+
+/* Style the dropdown menu trigger icon */
+.trig .ic {
+  width: 24px;
+  height: 24px;
+  fill: #000; /* Icon color */
+}
+
+/* Style the dropdown menu box */
+.dpdw-box {
+  background: #fff; /* Background color for the dropdown menu */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Style the menu items */
+.flyout .itm {
+  text-decoration: none;
+  color: #000; /* Menu item text color */
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+/* Style the sub-menu */
+.sub {
+  display: none;
+}
+
+/* Show sub-menu on hover */
+.flyout:hover .sub {
+  display: block;
+}
+
+/* Style the shopping cart link */
+#ci {
+  color: #000; /* Cart icon color */
+  font-size: 20px;
+}
+
+/* Style the "Live Help" button */
+.btn._i {
+  background: #ff6600; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the "Live Help" button on hover */
+.btn._i:hover {
+  background: #e65400; /* Change the background color on hover */
+}
